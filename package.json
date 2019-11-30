@@ -1,0 +1,23 @@
+{
+  "name": "tdd-js",
+  "version": "1.0.0",
+  "description": "Javascript com TDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jotaplaysson/tdd-js.git"
+  },
+  "keywords": [
+    "tdd",
+    "js"
+  ],
+  "author": "Joao Paulo Monteiro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jotaplaysson/tdd-js/issues"
+  },
+  "homepage": "https://github.com/jotaplaysson/tdd-js#readme"
+}
