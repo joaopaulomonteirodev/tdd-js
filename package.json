@@ -4,7 +4,8 @@
   "description": "Javascript com TDD",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npx eslint --fix src --ext .js && npx eslint src --ext .js src/"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/jotaplaysson/tdd-js/issues"
   },
-  "homepage": "https://github.com/jotaplaysson/tdd-js#readme"
+  "homepage": "https://github.com/jotaplaysson/tdd-js#readme",
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "husky": "^3.1.0"
+  }
 }
